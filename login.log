@@ -1,1 +1,31 @@
-2023-11-23 23:29:39,200 INFO | Line: 26 |  main | Start.
+2023-11-23 23:47:07,547 INFO | Line: 26 |  main | Start.
+2023-11-23 23:47:09,218 ERROR | Line: 42 |  database | Database connect
+2023-11-23 23:47:09,265 ERROR | Line: 52 |  database | Database close
+2023-11-23 23:47:09,548 INFO | Line: 72 |  file_find | Next round
+2023-11-23 23:47:11,548 INFO | Line: 72 |  file_find | Next round
+2023-11-23 23:47:13,549 INFO | Line: 72 |  file_find | Next round
+2023-11-23 23:47:15,560 INFO | Line: 72 |  file_find | Next round
+2023-11-23 23:47:31,772 INFO | Line: 26 |  main | Start.
+2023-11-23 23:47:33,773 INFO | Line: 72 |  file_find | Next round
+2023-11-23 23:47:35,774 INFO | Line: 72 |  file_find | Next round
+2023-11-23 23:48:04,420 INFO | Line: 26 |  main | Start.
+2023-11-23 23:48:06,421 INFO | Line: 72 |  file_find | Next round
+2023-11-23 23:48:08,422 INFO | Line: 72 |  file_find | Next round
+2023-11-23 23:48:10,422 INFO | Line: 72 |  file_find | Next round
+2023-11-23 23:48:12,423 INFO | Line: 72 |  file_find | Next round
+2023-11-23 23:48:14,424 INFO | Line: 72 |  file_find | Next round
+2023-11-23 23:48:14,505 ERROR | Line: 42 |  database | Database connect
+2023-11-23 23:48:14,514 ERROR | Line: 52 |  database | Database close
+2023-11-23 23:48:14,514 INFO | Line: 79 |  file_find | New file = files\R023811.003
+2023-11-23 23:48:16,424 INFO | Line: 72 |  file_find | Next round
+2023-11-23 23:48:18,048 ERROR | Line: 42 |  database | Database connect
+2023-11-23 23:48:18,094 ERROR | Line: 52 |  database | Database close
+2023-11-23 23:48:18,424 INFO | Line: 72 |  file_find | Next round
+2023-11-23 23:48:20,425 INFO | Line: 72 |  file_find | Next round
+2023-11-23 23:48:22,425 INFO | Line: 72 |  file_find | Next round
+2023-11-23 23:48:24,425 INFO | Line: 72 |  file_find | Next round
+2023-11-23 23:48:26,440 INFO | Line: 72 |  file_find | Next round
+2023-11-23 23:48:28,442 INFO | Line: 72 |  file_find | Next round
+2023-11-23 23:48:30,452 INFO | Line: 72 |  file_find | Next round
+2023-11-23 23:48:32,454 INFO | Line: 72 |  file_find | Next round
+2023-11-23 23:48:34,455 INFO | Line: 72 |  file_find | Next round

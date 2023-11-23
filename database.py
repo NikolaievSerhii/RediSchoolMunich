@@ -39,7 +39,7 @@ class Database:
                 # пытаемся подключиться к базе данных
                 self.conn = psycopg2.connect(dbname=self.dbname , user=self.user , password=self.dbpass, host=self.id, port = self.port)
                 self._fl_con = True
-                log.error("Database connect")
+                log.info("Database connect")
             except:
                 # в случае сбоя подключения будет выведено сообщение в STDOUT
                 log.error("Can`t establish connection to database")
@@ -49,13 +49,13 @@ class Database:
         if self._fl_con:
             self.conn.close()
             self._fl_con = False
-            log.error("Database close")
+            log.info("Database close")
 
     # Выполнить запрос и вернуть результат
     def query(self, sql):
         try:
             if (not self._fl_con):
-                self.connect()
+                 self.connect()
             cursor = self.conn.cursor()
             cursor.execute(sql)
             all_users = cursor.fetchall()
