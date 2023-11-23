@@ -1,0 +1,12 @@
+{
+    "directory": "/home/sergey/PycharmProjects/pythonProject/files/",
+	"time_sek" : 2,
+	"db":
+       	{
+           	"ip": "127.0.0.1",
+           	"port": 5432,
+			"dbname" : "my_test",
+			"dbuser" : "postgres",
+			"dbpass" : "undecodable"
+       	}
+}
