@@ -53,12 +53,17 @@ class Database:
 
     # Выполнить запрос и вернуть результат
     def query(self, sql):
-        if (not self._fl_con):
-            self.connect()
-        cursor = self.conn.cursor()
-        cursor.execute(sql)
-        all_users = cursor.fetchall()
-        cursor.close()  # закрываем курсор
+        try:
+            if (not self._fl_con):
+                self.connect()
+            cursor = self.conn.cursor()
+            cursor.execute(sql)
+            all_users = cursor.fetchall()
+        except Exception as inst:
+            log.error("Sql execute = " + sql)
+            log.error(inst)
+        finally:
+            cursor.close()  # закрываем курсор
         return all_users
 
     # Выполнить запрос без возвращение результата
